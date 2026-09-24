@@ -287,11 +287,12 @@ footer{
 
     .hero{
         flex-direction: column;
+         text-align: center;
     }
 
     .container{
         
-        
+        text-align: center;
         flex-direction: column;
         
     }
