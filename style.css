@@ -259,12 +259,6 @@ footer{
 
 
 @media (max-width:600px){
-    body{
-       
-       width:100%;
-        
-        
-    }
 
     nav{
        
@@ -274,14 +268,14 @@ footer{
     }
 
     nav>a{
-        width: 100%;
+       
         
         flex-direction: column;
         text-align: left;
     }
 
     .login{
-        width: 100%;
+       
         flex-direction: column;
         text-align: left;
     }
