@@ -296,6 +296,11 @@ footer{
         flex-direction: column;
         
     }
+
+    .box{
+        text-align: center;
+        flex-direction: column;
+    }
 }
 
 
