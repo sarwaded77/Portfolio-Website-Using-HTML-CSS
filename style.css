@@ -1,0 +1,265 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#0d1428;
+    /* color: white; */
+    /* text-transform: uppercase; */
+    text-align: center;
+   
+}
+
+@media (max-width:600px){
+    body{
+        width: 100%;
+        
+    }
+}
+
+.header{
+    background-color:black;
+    height: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-evenly;
+}
+
+nav{
+    display: flex;
+   gap: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+    font-weight: bold;
+    width: 15%;
+    height: 40px;
+   
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 25px;
+    font-size: 25px;
+}
+
+nav a:hover{
+    background-color: yellow;
+    padding-left: 25px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.login{
+    
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 12px 20px ;
+    background-color: #35b5e8;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 4px;
+   
+
+}
+
+.login:hover{
+    background-color: yellow;
+    padding-left: 25px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.hero{
+    background-color:#0d1428 ;
+}
+
+h4{
+    padding: 10px 20px 30px 40px;
+    font-weight: normal;
+   letter-spacing: 5px;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 5%;
+
+}
+#sub{
+   
+    padding: 50px;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+
+
+.logo span:first-child{
+    color: white;
+    letter-spacing: 5px;
+}
+
+.logo span:last-child{
+    color: skyblue;
+    letter-spacing: 5px;
+}
+
+
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.button{
+    /* background-color: skyblue;
+    color: black;
+    padding-right:0.5cm ;
+    padding-left: 0.5cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm ;
+    margin-bottom: 50px; */
+
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 12px 20px ;
+    background-color: #35b5e8;
+    color: #102039;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+   
+}
+
+.button:hover{
+    background-color: yellow;
+    padding-left: 25px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.about>h1{
+    font-size: 40px;
+}
+
+.about>p{
+    font-size: 17px;
+}
+
+section{
+    background-color:skyblue;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-right:100px ;
+    padding-left: 100px;
+}
+
+
+
+section>h2{
+   margin-bottom: 20px; 
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width:600px){
+    .container{
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+.box h3{
+    font-size: 25px;
+    /* margin-bottom: 10px; */
+    color: skyblue;
+}
+
+.box p{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.box{
+    /* background-color: white;
+    width:20%;
+    
+    border: 1px solid whitesmoke; */
+
+    background-color: white;
+    width: 300px;
+    min-height: 85px;
+    padding: 20px 10px 10px 10px;
+    border-radius: 4px;
+
+}
+
+#abc{
+    color: white;
+    font-size: 25px;
+    background-color: #0d1428;
+}
+
+#abc p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.email {
+    /* background-color: skyblue;
+    text-decoration: none;
+    color: black;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    font-size: 20px; */
+
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 12px 20px ;
+    background-color: #35b5e8;
+    color: #102039;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+   
+    
+}
+
+.email:hover{
+    background-color: yellow;
+    padding-left: 25px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-right:0.5cm ;
+    padding-left: 0.5cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm ;
+    
+}
+
