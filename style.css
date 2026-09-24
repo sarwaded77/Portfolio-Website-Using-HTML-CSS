@@ -13,12 +13,7 @@ body{
    
 }
 
-@media (max-width:600px){
-    body{
-        width: 100%;
-        
-    }
-}
+
 
 .header{
     background-color:black;
@@ -180,12 +175,7 @@ section>h2{
     gap: 20px;
 }
 
-@media (max-width:600px){
-    .container{
-        width: 100%;
-        font-size: 30px;
-    }
-}
+
 
 .box h3{
     font-size: 25px;
@@ -262,4 +252,49 @@ footer{
     padding-bottom: 0.5cm ;
     
 }
+
+
+/* Mobile Screen */
+
+
+@media (max-width:600px){
+    body{
+       
+        background-color: red;
+        
+        
+    }
+
+    nav{
+       
+        flex-direction: column;
+        text-align: left;
+        
+    }
+
+    nav>a{
+        width: 100%;
+        
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .login{
+        width: 100%;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .container{
+        
+        
+        flex-direction: column;
+        
+    }
+}
+
 
