@@ -260,7 +260,7 @@ footer{
 @media (max-width:600px){
     body{
        
-        background-color: red;
+       width:100%;
         
         
     }
