@@ -254,51 +254,157 @@ footer{
     padding-bottom: 0.5cm ;
     
 }
+/* ================= MOBILE SCREEN ================= */
 
-/* Mobile Screen */
+@media (max-width: 600px) {
 
-
-@media (max-width:600px){
-    body{
-       
-        background-color: red;
-        
-        
+    /* Header */
+    .header {
+        height: auto;
+        padding: 15px;
     }
 
-    nav{
-       
+    nav {
+        display: flex;
         flex-direction: column;
-        text-align: left;
-        
+        gap: 10px;
+        align-items: center;
     }
 
-    nav>a{
+    nav a {
+        width: 90%;
+        margin: 0;
+        padding: 10px;
+        height: auto;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .login {
+        width: 90%;
+        margin: 0;
+        padding: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+
+    /* Hero Section */
+    .hero {
+        padding: 40px 20px;
+    }
+
+    .hero br {
+        display: none;
+    }
+
+    .logo {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        padding: 10px;
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+
+    .hero h3 {
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+
+    h1 {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+
+    #sub {
+        padding: 20px 0;
+        font-size: 16px;
+    }
+
+    .hero p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+
+    /* About Section */
+    .about {
+        padding: 40px 20px;
+    }
+
+    .about h2 {
+        font-size: 24px;
+    }
+
+    .about > h1 {
+        font-size: 28px;
+        margin: 15px 0;
+    }
+
+    .about > p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+
+    /* Skills Section */
+    section {
+        padding: 50px 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .box {
         width: 100%;
-        
-        flex-direction: column;
-        text-align: left;
+        max-width: 350px;
+        min-height: auto;
+        padding: 20px;
     }
 
-    .login{
-        width: 100%;
-        flex-direction: column;
-        text-align: left;
+    .box h3 {
+        font-size: 22px;
     }
 
-    .hero{
-        flex-direction: column;
+    .box p {
+        white-space: normal;
+        overflow: visible;
+        font-size: 14px;
     }
 
-    .container{
-        
-        background-color: red;
-        flex-direction: column;
-        justify-content: center;
-        
+
+    /* Let's Work Together */
+    #abc {
+        padding: 50px 20px;
+        font-size: 22px;
     }
-    .box{
-        flex-direction: column;
-        justify-content: center;
+
+    #abc p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .email {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+
+    /* Footer */
+    footer {
+        padding: 20px 10px;
+        font-size: 13px;
     }
 }
