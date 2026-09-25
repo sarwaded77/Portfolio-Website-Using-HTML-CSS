@@ -254,34 +254,41 @@ footer{
     padding-bottom: 0.5cm ;
     
 }
-/* ================= MOBILE SCREEN ================= */
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
-    /* Header */
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* HEADER */
     .header {
         height: auto;
-        padding: 15px;
+        padding: 15px 10px;
+    }
+
+    .navbar {
+        width: 100%;
     }
 
     nav {
         display: flex;
         flex-direction: column;
-        gap: 10px;
         align-items: center;
+        gap: 10px;
+        width: 100%;
     }
 
-    nav a {
+    nav a,
+    nav a.login {
+        display: block;
         width: 90%;
-        margin: 0;
-        padding: 10px;
         height: auto;
-        font-size: 18px;
-        text-align: center;
-    }
-
-    .login {
-        width: 90%;
         margin: 0;
         padding: 10px;
         font-size: 18px;
@@ -289,9 +296,10 @@ footer{
     }
 
 
-    /* Hero Section */
+    /* HERO */
     .hero {
-        padding: 40px 20px;
+        width: 100%;
+        padding: 50px 20px;
     }
 
     .hero br {
@@ -304,19 +312,14 @@ footer{
     }
 
     h4 {
-        padding: 10px;
+        padding: 10px 0 30px 0;
         font-size: 14px;
-        letter-spacing: 3px;
     }
 
-    .hero h3 {
-        font-size: 16px;
-        letter-spacing: 3px;
-    }
-
-    h1 {
+    .hero h1 {
         font-size: 28px;
         letter-spacing: 2px;
+        word-break: break-word;
     }
 
     #sub {
@@ -329,19 +332,11 @@ footer{
         line-height: 1.6;
     }
 
-    .button {
-        font-size: 14px;
-        padding: 12px 20px;
-    }
 
-
-    /* About Section */
+    /* ABOUT */
     .about {
-        padding: 40px 20px;
-    }
-
-    .about h2 {
-        font-size: 24px;
+        width: 100%;
+        padding: 50px 20px;
     }
 
     .about > h1 {
@@ -355,40 +350,36 @@ footer{
     }
 
 
-    /* Skills Section */
+    /* SKILLS */
     section {
+        width: 100%;
         padding: 50px 20px;
     }
 
     .container {
         display: flex;
         flex-direction: column;
-        gap: 20px;
         align-items: center;
+        gap: 20px;
+        width: 100%;
     }
 
     .box {
         width: 100%;
         max-width: 350px;
-        min-height: auto;
-        padding: 20px;
-    }
-
-    .box h3 {
-        font-size: 22px;
+        min-height: 100px;
     }
 
     .box p {
         white-space: normal;
         overflow: visible;
-        font-size: 14px;
     }
 
 
-    /* Let's Work Together */
+    /* WORK TOGETHER */
     #abc {
+        width: 100%;
         padding: 50px 20px;
-        font-size: 22px;
     }
 
     #abc p {
@@ -396,14 +387,10 @@ footer{
         line-height: 1.5;
     }
 
-    .email {
-        font-size: 14px;
-        padding: 12px 20px;
-    }
 
-
-    /* Footer */
+    /* FOOTER */
     footer {
+        width: 100%;
         padding: 20px 10px;
         font-size: 13px;
     }
