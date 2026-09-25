@@ -266,7 +266,7 @@ footer{
         overflow-x: hidden;
     }
 
-    /* HEADER */
+    
     .header {
         height: auto;
         padding: 15px 10px;
@@ -296,7 +296,6 @@ footer{
     }
 
 
-    /* HERO */
     .hero {
         width: 100%;
         padding: 50px 20px;
@@ -333,7 +332,7 @@ footer{
     }
 
 
-    /* ABOUT */
+    
     .about {
         width: 100%;
         padding: 50px 20px;
@@ -350,7 +349,6 @@ footer{
     }
 
 
-    /* SKILLS */
     section {
         width: 100%;
         padding: 50px 20px;
@@ -376,7 +374,6 @@ footer{
     }
 
 
-    /* WORK TOGETHER */
     #abc {
         width: 100%;
         padding: 50px 20px;
@@ -388,7 +385,7 @@ footer{
     }
 
 
-    /* FOOTER */
+   
     footer {
         width: 100%;
         padding: 20px 10px;
