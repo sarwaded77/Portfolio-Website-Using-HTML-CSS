@@ -302,9 +302,16 @@ footer{
         text-align: center;
         flex-direction: column;
         margin: 20px 0;
-        max-width: 100%
+        max-width: 100%;
       
     }
+    .box>h1{
+        font-size: 20px;
+    }
+    .box>p{
+        font-size: 15px;
+    }
+        
 }
 
 
