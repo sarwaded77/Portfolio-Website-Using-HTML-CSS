@@ -292,14 +292,14 @@ footer{
         flex-direction: column;
         margin-right: 300px;
         justify-content: center;
-        padding: 20px
+       
     }
 
     .box{
         width:100%
         text-align: center;
         flex-direction: column;
-        padding: 20px
+      
     }
 }
 
